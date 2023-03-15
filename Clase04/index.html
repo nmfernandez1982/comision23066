@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+    </head>
+    <body>
+
+        
+    <form action="ingresar" method="post">        
+        <fieldset>
+            <legend>Datos Del Alumno</legend>
+        <label for="alumnoNombre">Nombre:</label>
+        <input type="text" id="alumnoNombre" name="alumnoNombre" minlength="2" maxlength="5"  required >
+        <br>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required placeholder="Aqui Su Apellido">
+        <br>
+        <br>
+        <label for="fnac" >Fecha De Nac.:</label>
+        <input type="datetime-local" id="" name="" >
+        <br>
+        <br>
+        <label for="edad" >Edad:</label>
+        <input type="number" id="edad" name="edad" min="18" max="99" required placeholder="" >
+        <br>
+        <br>
+        <label for="edad" >Edad:</label>
+        <input type="number" min="18" max="99" readonly value="17"  >
+        <br>
+        <br>
+        <label for="edad" >Edad:</label>
+        <input type="number" min="18" max="99"  value="17" disabled >
+        <br>
+        <br>
+        <label for="pass">Password:</label>    
+        <input type="password" pattern="">
+        <br>
+        <br>
+        <label for="">Color:</label>
+        <input type="color">
+        <br>
+        <br>
+        <label for="">Archivo:</label>
+        <input type="file" accept="image/png, .jpeg, .jpg, image/gif" >
+        <br>
+        <br>
+        <label for="">Oculto:</label>
+        <input type="hidden">
+        <br>
+        <br>
+        <label for="">Direccion:</label>
+        <textarea cols="" rows="">
+
+        </textarea>
+        <br>
+        <br>
+        <label>Selecciones Lenguaje:</label>
+        <select  >
+            <option value="1" >Java</option>
+            <option value="2">PHP</option>
+            <option value="3"  >Python</option>
+            <option value="4" selected>.NET</option>
+        </select>
+
+
+
+    </fieldset>
+        
+        <input type="submit" value="Enviar" >
+    </form>        
+        
+        
+        
+    
+    </body>
+</html>
