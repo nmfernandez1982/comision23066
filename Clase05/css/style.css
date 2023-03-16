@@ -1,0 +1,21 @@
+/*Estilos de los H1*/
+body
+{
+    background-color: lightgray;
+    background: url(/img/fondo1.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+}
+
+
+
+/*Estilos de los body*/
+
+
+
+
