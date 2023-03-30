@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+div
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+#caja1
+{
+    background-color: red;
+    position: relative;
+    left: 301px;
+    top: 100px;
+}
+
+#caja1Hija
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    left: 301px;
+    position: relative;
+
+}
+
+
+#caja2
+{
+    background-color: yellow;
+    position: fixed;
+    left: 602px;
+}
+
+#caja3
+{
+    background-color: blue;
+    height: 1200px;
+}
+
+
+#caja4
+{
+    background-color: blue;
+    height: 300px;
+    position: absolute;  
+    z-index: 3;    
+}
+
+#caja5
+{
+    background-color: red;
+    height: 300px;
+    position: absolute;  
+    z-index: 22;
+}
+
+#caja6
+{
+    background-color: yellow;
+    height: 300px;
+    position: absolute;   
+    z-index: 1;
+}
+
