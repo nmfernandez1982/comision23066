@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+.contendor-flex
+{
+    width: 80%;
+    background-color: grey;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: left;
+
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+
+    flex-direction: row-reverse;
+}
+
+#tres
+{
+    align-self: flex-end;
+    background-image: linear-gradient(blue,violet);
+}

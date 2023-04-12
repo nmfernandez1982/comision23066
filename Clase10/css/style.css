@@ -1,0 +1,44 @@
+div
+{
+    border: red 5px solid;
+}
+
+
+/*
+div+p
+{
+    color: red;
+}
+
+
+div~p
+{
+    color:red;
+}
+
+
+div>p
+{
+    color:red;
+}
+*/
+
+.rojo
+{
+    color:red;
+}
+
+.fuente
+{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.textoSombra
+{
+    text-shadow: 2px 2px grey;    
+}
+
+
+

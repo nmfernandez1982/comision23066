@@ -1,0 +1,45 @@
+body
+{
+    background-color: grey;
+}
+
+#cuadroRojo
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+#cuadroRojo:hover
+{
+    background-color: white;
+    color: red;
+}
+
+
+#nombre
+{
+    background-color: white;
+}
+
+#nombre:focus
+{
+    background-color: blue;
+}
+
+
+p:lang(es)
+{
+    color: red;
+}
+
+span:first-child
+{
+    background-color: blue;
+}
+
+a:active
+{
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,80 @@
+
+/*
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;    
+}
+
+
+div:hover
+{
+    width: 300px;
+    height: 300px;
+    background-color: blue;  
+    transition: width 2s,height 2s;
+    transition-delay: 2s;  
+}
+
+*/
+
+#prueba
+{
+    animation-name: animacion1;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+}
+
+
+/*
+@keyframes animacion1
+{
+    from 
+    {
+        width:100px;
+        height:100px;
+        color:red;
+        background-color:yellow;           
+    }
+    to 
+    {
+        width:300px;
+        height:300px;
+        color:white;
+        background-color:blue;
+    }
+}
+*/
+
+
+@keyframes animacion1
+{
+  0%{
+        width:100px;
+        height:100px;
+        color:red;
+        background-color:yellow;           
+    }
+   25%
+    { 
+        width:150px;
+        height:150px;
+        color:white;
+        background-color:blue;
+    }
+    50%
+    {
+        width:200px;
+        height:200px;
+        color:yellow;
+        background-color:green;
+    }
+    100%
+    {
+        width:300px;
+        height:300px;
+        color:white;
+        background-color:orange;
+    }
+}
