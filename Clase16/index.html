@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+    </head>
+    <body>
+
+        <script>
+       var nombre="Nicolas";
+       var edad=42;
+       var habilitado=true;
+
+       //metodos 
+
+       numero1=parseInt("75.7");
+       console.log("Dato: "+numero1);
+       numero1=parseInt("66 21 89");
+       console.log("Dato: "+numero1);
+       numero1=parseInt("42 años de edad");       
+       console.log("Dato: "+numero1);
+       numero1=parseInt("años de edad 42");       
+       console.log("Dato: "+numero1);
+       numero1=parseFloat("42");
+       numero1=numero1+40.1;       
+       console.log("Dato: "+numero1);
+       
+       var notas = [10,1,2,6,1,10,8,9,10,1];
+                 //  0 1 2 3 4  5 6 7
+
+       console.log(notas[7]);
+       console.log(notas[0]);
+       console.log(notas[17]);
+
+       console.log(notas);      
+       console.table(notas);
+
+       var nombres=["Nicolas","Julieta","Alberto","Carmen"];
+       console.table(nombres);
+
+
+       var deTodo=[12,true,"Nicolas",false,1500.1];
+       console.table(deTodo);
+
+       var suma = notas[0]+notas[6];    
+       
+       var cantidad=notas.length;
+       console.log("La cantidad de elementos de notas es:"+cantidad);
+
+       //otro tema
+
+       var nota=4;
+
+       /*
+       >
+       <
+       >=
+       <=
+       = operador de asignacion.       
+       ==
+       ===
+       !=     
+       */
+
+       if(nota!=4) // si o no True o False
+       {
+         //Salida por true
+         console.log("SI"); 
+       }
+       else
+       {
+        //salida por false
+        console.log("NO");
+       }
+
+       /*
+       && y
+       || o
+       */
+
+       nota=4;
+       conducta=1;
+
+       if(nota>=4&&conducta>=4)
+       {
+            console.log("Aprobado");
+       }
+       else
+       {
+            console.log("Desaprobado");
+       }
+       /*
+       T&T = T
+       F&T = F
+       T&F = F
+       F&F = F
+       */
+
+
+       if(nota>=4||conducta>=4)
+       {
+            console.log("Aprobado");
+       }
+       else
+       {
+            console.log("Desaprobado");
+       }
+
+       /*
+       T o T = T
+       F o T = T
+       T o F = T
+       F o F = F       
+       */
+
+
+
+
+    
+
+
+
+
+
+       
+       
+
+       
+       </script>    
+    </body>
+</html>
