@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     </head>
+    <body>
+
+        <script>
+            var dia=5;
+
+            switch(dia)
+            {
+                case 0:
+                    console.log("El dia es domingo"); 
+                    break;                   
+                case 1:
+                    console.log("El dia es lunes");
+                    break;   
+                case 2:
+                    console.log("El dia es martes");
+                    break;   
+                case 3:
+                    console.log("El dia es miercoles");
+                    break;   
+                case 4:
+                    console.log("El dia es jueves");
+                    break;   
+                case 5:
+                    console.log("El dia es viernes");
+                    break;   
+                case 6:
+                    console.log("El dia es sabado");
+                    break;   
+                default:  
+                    console.log("Error");
+                    break;  
+            }
+
+
+            //bucles
+
+
+            //while
+
+            var aux=10;
+
+            while(aux<5)
+            {
+                console.log("While pos.{"+aux+"}");
+                aux++; //aux=aux+1;
+            }          
+            console.log("----------------------");
+            do{
+              console.log("Do While pos.{"+aux+"}");
+              aux++;  //aux=aux+1;
+            }while(aux<5);
+            console.log("----------------------");
+
+            var notas=[1,4,1,8,4,1,200,9,3,1,6,4,10,100,3,50,21,2,3,5,5];
+            
+            console.log("----------------------");
+            for(x=0;x<notas.length;x++)
+            {
+                console.log("El valor del Array en la pos. {"+x+"}-->"+notas[x])
+            }
+
+
+            console.log("----------------------");            
+            notas.forEach(nota => 
+            {
+                console.log("El valor de nota es:"+nota);
+                
+            });
+
+            console.log("----------------------");  
+            maximo=0;
+            for(x=0;x<notas.length;x++)
+            {
+                if(notas[x]>maximo)
+                {
+                    maximo=notas[x];
+                }
+            }
+            console.log("EL valor maximo es:"+maximo);
+            console.log("----------------------");  
+            minimo=maximo;
+
+            
+
+
+
+            
+
+        </script>    
+    </body>
+</html>
