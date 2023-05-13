@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/funciones.js"></script>
+    </head>
+    <body>
+
+        <select  id="seleccion" onchange="funcion();" >
+                <option value="java" >Java</option>
+                <option value="python">Python</option>
+                <option value="php">PHP</option>
+        </select>
+
+        <p id="seleccionLenguaje" ></p>
+
+        <img src="img/messi.jpg" id="MessiId" name="MessiName" class="MessiClass" alt="MessiAlt" >
+
+        <script>
+            var messi=document.getElementById('MessiId');
+            console.log(messi.src);
+            console.log(messi.id);
+            console.log(messi.name);
+            console.log(messi.className);
+            console.log(messi.alt);
+        </script>
+    
+    </body>
+</html>
