@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+#div1
+{
+    width: 100%;
+    color:white;
+    height: 70px;
+    text-align: center;
+}
+
+.original
+{
+    background-color: red;
+}
+
+.nueva
+{
+    background-color: green;
+}
