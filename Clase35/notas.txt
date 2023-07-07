@@ -1,0 +1,25 @@
+DAO:
+
+En software, un objeto de acceso a datos (DAO) es un patrón que proporciona una interfaz abstracta a 
+algún tipo de base de datos u otro mecanismo de persistencia. Al asignar las llamadas de la aplicación a la capa de persistencia, 
+el DAO proporciona algunas operaciones de datos específicas sin exponer los detalles de la base de datos. 
+
+
+SERVLET:
+Es una tecnologia que nos permite crear aplicaciones WEB dinamicas , es decir permite al usuario interactuar con la aplicacion. 
+EJ. (Consultas/insert/delete).
+
+un servlet hereda de clase javax.servlet.http:HttpServlet.
+
+Los servlet reciben peticiones desde un navegador, procesan y devuelven informacion.
+
+
+SERVLET motodos de ACCESO al servidor:
+
+GET: obtener información del servidor y enviársela al cliente 
+(una página WEB almacenada, un archivo, datos de bases de datos, …). 
+Puede ser necesario enviar información en la solicitud al servidor , para que pueda devolver la respuesta al cliente.
+
+POST: enviar información desde el cliente al servidor para que la procese, agregue o actualice. 
+
+
